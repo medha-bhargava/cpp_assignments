@@ -9,7 +9,7 @@ int main() {
     if(n > 0) {
         cout<<"Positive number";
     } else {
-        cout<<"The number is negative and skipped";
+        cout<<"The number is non-positive and skipped";
     }
     return 0;
 }
