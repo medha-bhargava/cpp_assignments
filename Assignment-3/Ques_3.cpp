@@ -12,7 +12,7 @@ int main() {
         int Profit;
         Profit = sellingPrice - costPrice;
         cout<<"Profit = "<<Profit<<"";
-    } else if(costPrice < sellingPrice) {
+    } else if(costPrice > sellingPrice) {
         int Loss;
         Loss = costPrice - sellingPrice;
         cout<<"Loss = "<<Loss<<"";
